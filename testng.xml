@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI-API Validation Suite" parallel="tests" thread-count="1">
+    <test name="API User Creation Test">
+        <classes>
+            <class name="api.UserAPITest"/>
+        </classes>
+    </test>
+    <test name="Mobile App Login Test">
+        <classes>
+            <class name="ui.MobileAppTest"/>
+        </classes>
+    </test>
+</suite>
